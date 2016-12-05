@@ -1,0 +1,11 @@
+<Page>
+	<Grid Rows="7*,1*,1*">
+		<BarChart Title="A Bar Chart" Name="View" Spacing="10" HSpace="10" MaxItems="15"  Margin="20,30,20,20"/>
+		<TextBlock GridRow="1" Name="MessageBox" Margin="40,20,40,20" Fontsize="24" TextWrapping="False"/>
+		<StackPanel Orientation="Horizontal" GridRow="2" HorizontalAlignment="Center" VerticalAlignment="Top">
+			<Button Name="Connect" Content="Connect"  Width="120" Height="40" Margin="5" FontSize="26" Background="#1a6f35" Foreground="#ffffff"/>
+			<Button Name="Adder"   Content="Add Data" Width="120" Height="40" Margin="5" FontSize="26" Background="#1a6f35" Foreground="#ffffff"/>
+			<Button Name="Commit"  Content="Update"   Width="120" Height="40" Margin="5" FontSize="26" Background="#1a6f35" Foreground="#ffffff"/>
+		</StackPanel>
+	</Grid>
+</Page>
